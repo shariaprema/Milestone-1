@@ -1,0 +1,33 @@
+.main-container{
+    background-color: blueviolet;
+    width:600px;
+    margin: auto;
+    text-align: center;
+}
+
+.first-container{
+    text-align: center;
+}
+
+.ver-line{
+    border: 0.1px solid white;
+    width: 400px;
+    
+}
+
+.second-container > h3{
+    
+
+}
+
+.third-container{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.sub-container{
+    margin: 10px;
+}
+
