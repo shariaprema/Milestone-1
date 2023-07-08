@@ -6,13 +6,10 @@ nav > ul{
 }
 
 nav > ul > li{
-    list-style: none;
-    
-        
-    
+    list-style: none; 
 }
 
- li > a{
+ nav li > a{
     text-decoration: none;
     color: black;
     margin: 5px;
@@ -22,9 +19,34 @@ nav > ul > li{
     
 }
 
-li > a:hover{
+nav li > a:hover{
     opacity: 10.1;
     background-color:chartreuse;
     
+}
+ 
+
+/* nasted gropdown menu */
+
+nav li .dropdown{
+    display: none;
+    margin-top: 9px;
+    position: absolute;
+   
+
+}
+
+.dropdown li{
+    list-style: none;
+    padding: 5px 5px;
+    background-color: gainsboro;
+    
+}
+
+
+nav li:hover > .dropdown{
+    display: block;
+    
+
 }
 

@@ -1,0 +1,30 @@
+.first-container{
+    border: 1px solid gray;
+     width: 500px;
+     height: 700px;
+     margin: auto;
+     box-shadow: 1px 2px 3px 1px;
+     padding: 10px;
+}
+
+.main-part{
+    text-align: center;
+}
+
+.cartoon{
+    margin-top: 20px;
+    
+}
+
+.verticle-line{
+    border-bottom: 1px solid gray ;
+    width: 95%;
+    margin: 20px auto;
+
+}
+
+
+textarea{
+    width: 400px;
+    height: 100px;
+}

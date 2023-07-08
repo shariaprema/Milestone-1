@@ -7,8 +7,9 @@
     
     <title>4-4 HTML Table Table, tr, th, td, caption, colspan, thead, tbody, tfoot</title>
 
-    <title>4-5 Navigation Simple navbar and internal navigation among files
-    </title>
+    <title>4-5 Navigation Simple navbar and internal navigation among files</title>
+
+    <title>4-6 (optional) Nested mega menu dropdown option on mouseover</title>
 
     <style>
         table{
@@ -21,21 +22,69 @@
 
     </style>
 
-
 </head>
 <body>
       <nav>
-        <ul><li  class="one"><a target="_blank" href="video.html">Video</a></li>
-
-            <li class=""><a target="_blank" href="4-2vlog.html">4-2vlog</a></li>
-    
+        <ul>
+            <li><a target="_blank" href="video.html">Video</a></li>
+            <li><a target="_blank" href="4-2vlog.html">4-2vlog</a>
+                <ul class="dropdown" >
+                    <li><a target="_blank" href="video.html">Video</a>
+                    
+                        <ul class="dropdown" >
+                            <li><a target="_blank" href="video.html">Video</a></li>
+                            <li><a target="_blank" href="4-2vlog.html">4-2vlog</a>
+                            
+                                <ul class="dropdown" >
+                                    <li><a target="_blank" href="video.html">Video</a></li>
+                                    <li><a target="_blank" href="4-2vlog.html">4-2vlog</a></li>
+                                    <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                                    <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                                </ul>
+                            
+                            </li>
+                            <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                            <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                        </ul>
+                     
+                    </li>
+                    <li><a target="_blank" href="4-2vlog.html">4-2vlog</a></li>
+                    <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                    <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                </ul>
+            </li>
             <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+            <li><a target="_blank" href="4-3form.html">4-3form</a>
+                <ul class="dropdown">
+                    <li><a target="_blank" href="video.html">Video</a></li>
+                    <li><a target="_blank" href="4-2vlog.html">4-2vlog</a> </li>
+                    <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                    <li><a target="_blank" href="4-3form.html">4-3form</a>
+                        <ul class="dropdown" >
+                            <li><a target="_blank" href="video.html">Video</a></li>
+                            <li><a target="_blank" href="4-2vlog.html">4-2vlog</a></li>
+                            <li><a target="_blank" href="4-3form.html">4-3form</a>
+                                <ul class="dropdown" >
+                                    <li><a target="_blank" href="video.html">Video</a></li>
+                                    <li><a target="_blank" href="4-2vlog.html">4-2vlog</a></li>
+                                    <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                                    <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                                </ul>
+                            
+                            
+                            </li>
+                            <li><a target="_blank" href="4-3form.html">4-3form</a></li>
+                        </ul>
+                    
+                    
+                    
+                    </li>
+                </ul>
+            
+            </li>
         
         </ul>
       </nav>
-
-
-
 
     <H1>My Table</H1>
     
@@ -103,6 +152,13 @@
 
 
     </ol>
+
+    <a href="./Assets/Media/hero-800px-9fbe463f.jpg" download>image</a>
+
+    <button>Click me</button>
+
+    <button disabled type="button">Click Me</button>
+    <input type="Number" max="10" min="5">
         
     
     
